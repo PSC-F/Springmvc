@@ -32,7 +32,7 @@ public class UserController {
     public String registerForm() {
         logger.info("register Get方法被调用...");
         //跳转注册页面
-        return "/registerForm.jsp";
+        return "/registerUserRegister.jsp";
     }
 
     /**

@@ -1,0 +1,33 @@
+package org.zpf.domain;
+
+import java.io.Serializable;
+
+public class UserValidation06 implements Serializable {
+    private String loginName;
+    private String password;
+
+    public UserValidation06() {
+        super();
+    }
+
+    public UserValidation06(String loginName, String password) {
+        this.loginName = loginName;
+        this.password = password;
+    }
+
+    public String getLoginName() {
+        return loginName;
+    }
+
+    public void setLoginName(String loginName) {
+        this.loginName = loginName;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+}

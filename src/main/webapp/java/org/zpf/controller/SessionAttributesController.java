@@ -17,11 +17,11 @@ public class SessionAttributesController {
     public static final Log looger = LogFactory.getLog(SessionAttributesController.class);
 
 
-    @RequestMapping(value = "/{forName}")
-    public String loginForm(@PathVariable String forName) {
-        //动态跳转页面
-        return forName;
-    }
+//    @RequestMapping(value = "/{forName}")
+//    public String loginForm(@PathVariable String forName) {
+//        //动态跳转页面
+//        return forName;
+//    }
 
     @RequestMapping(value = "/login-sessionAttributes")
     public String login(
